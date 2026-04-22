@@ -13,7 +13,7 @@ export default function Education() {
           {cv.education.map((edu, i) => (
             <div key={i} className="rounded-xl border border-slate-200 p-5 hover:border-esri-blue/50 transition-colors">
               <p className="text-xs font-semibold text-esri-blue uppercase tracking-widest mb-1">
-                {edu.year}
+                {edu.period}
               </p>
               <h3 className="font-semibold text-slate-900 mb-1">{edu.degree}</h3>
               <p className="text-sm text-slate-500">{edu.institution}</p>

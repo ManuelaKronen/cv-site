@@ -4,6 +4,7 @@ import Header from './components/Header'
 import WorkExperience from './components/WorkExperience'
 import Education from './components/Education'
 import Certificates from './components/Certificates'
+import ProgrammingCourses from './components/ProgrammingCourses'
 import TechStack from './components/TechStack'
 import Languages from './components/Languages'
 import Footer from './components/Footer'
@@ -17,6 +18,7 @@ export default function App() {
         <WorkExperience />
         <Education />
         <Certificates />
+        <ProgrammingCourses />
         <TechStack />
         <Languages />
       </main>
