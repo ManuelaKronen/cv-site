@@ -79,7 +79,7 @@ const en: CVData = {
       period: 'Jun 2024 – Present',
       location: 'Madrid, Spain',
       description:
-        'Lead the technical vision as an Esri España partner, analysing the use and integration of ArcGIS Online, ArcGIS Enterprise and ArcGIS Location Platform, and supporting architectural decision-making. Build and maintain positive client relationships and configure solutions using ArcGIS Experience Builder.',
+        'Leading the technical vision as an Esri España partner, analysing the use and integration of ArcGIS Online, ArcGIS Enterprise and ArcGIS Location Platform, and supporting architectural decision-making. Building and maintaining positive client relationships and configuring solutions using ArcGIS Experience Builder.',
     },
     {
       role: 'GIS Online Educator',
@@ -87,7 +87,7 @@ const en: CVData = {
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, Spain',
       description:
-        'Created and published video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro and ArcGIS Field Maps. Content designed for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
+        'Creating and publishing video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro and ArcGIS Field Maps. Designing content for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
     },
     {
       role: 'GIS Coordinator',
@@ -95,7 +95,7 @@ const en: CVData = {
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Sweden',
       description:
-        'Drove adoption of ArcGIS Pro and ArcGIS Online within the organisation, delivered internal training sessions and administered the ArcGIS Field Maps mobile application for team use. Collected data, performed spatial analysis and generated reports in ArcGIS Pro and ArcGIS Online for a regional hiking trail spanning over 30 municipalities.',
+        'Driving adoption of ArcGIS Pro and ArcGIS Online within the organisation, delivering internal training sessions and administering the ArcGIS Field Maps mobile application for team use. Collecting data, performing spatial analysis and generating reports in ArcGIS Pro and ArcGIS Online for a regional hiking trail spanning over 30 municipalities.',
     },
     {
       role: 'Hiking Trail Coordinator',
@@ -103,7 +103,7 @@ const en: CVData = {
       period: 'Aug 2016 – Jun 2022',
       location: 'Höör, Sweden',
       description:
-        'Led the trail quality control team, with budget and personnel responsibilities. Maintained a network of contacts across more than 30 municipalities to ensure proper trail upkeep. Delivered quality standards training to field workers.',
+        'Leading the trail quality control team, with budget and personnel responsibilities. Maintaining a network of contacts across more than 30 municipalities to ensure proper trail upkeep. Delivering quality standards training to field workers.',
     },
     {
       role: 'PhD Researcher & University Lecturer',
@@ -111,7 +111,7 @@ const en: CVData = {
       period: 'Sep 2011 – Apr 2018',
       location: 'Sweden',
       description:
-        'Researched value-creation processes in EU LEADER projects for rural tourism development. Planned and conducted interviews with key informants, performed qualitative data analysis and presented findings as a doctoral thesis. Taught undergraduate and postgraduate courses.',
+        'Researching value-creation processes in EU LEADER projects for rural tourism development. Planning and conducting interviews with key informants, performing qualitative data analysis and presenting findings as a doctoral thesis. Teaching undergraduate and postgraduate courses.',
     },
     {
       role: 'Tourism Coordinator',
@@ -119,7 +119,7 @@ const en: CVData = {
       period: 'May 2007 – May 2009',
       location: 'Ystad, Sweden',
       description:
-        'Led reception teams in the day-to-day running of the tourist office. Set up and managed online booking systems. Delivered high-quality services to tourists under pressure.',
+        'Leading reception teams in the day-to-day running of the tourist office. Setting up and managing online booking systems. Delivering high-quality services to tourists under pressure.',
     },
   ],
   education: [
