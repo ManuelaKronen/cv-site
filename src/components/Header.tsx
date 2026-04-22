@@ -53,9 +53,11 @@ export default function Header() {
 
           {/* Photo — desktop right, mobile top */}
           <div className="order-1 md:order-3 flex justify-center md:justify-end">
-            <div className="w-32 h-32 rounded-full bg-white/15 border-2 border-white/30 flex items-center justify-center shrink-0">
-              <span className="text-3xl font-bold text-white/80 font-typewriter">MK</span>
-            </div>
+            <img
+              src="/Profilbild.jpg"
+              alt="Manuela Kronen"
+              className="w-32 h-32 rounded-full object-cover object-top border-2 border-white/30 shrink-0"
+            />
           </div>
 
         </div>
