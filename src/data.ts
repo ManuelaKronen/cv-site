@@ -122,7 +122,7 @@ const en: CVData = {
     {
       role: 'Tourism Coordinator',
       company: 'Ystad Municipality',
-      url: '',
+      url: 'https://www.visitystad.se/en',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Sweden',
       description:
@@ -254,7 +254,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de Turismo',
       company: 'Ayuntamiento de Ystad',
-      url: '',
+      url: 'https://www.visitystad.se/en',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Suecia',
       description:
