@@ -1,5 +1,29 @@
 import { useLanguage } from '../context/LanguageContext'
 
+const TERMS = [
+  'ArcGIS Maps SDK for JavaScript',
+  'ArcGIS API for Python',
+  'ArcGIS Location Platform',
+  'ArcGIS Experience Builder',
+  'ArcGIS for Power BI',
+  'ArcGIS Enterprise',
+  'ArcGIS Field Maps',
+  'ArcGIS Online',
+  'ArcGIS Pro',
+  'Network Analyst',
+  'ModelBuilder',
+  'LEADER',
+]
+
+const regex = new RegExp(`(${TERMS.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'g')
+
+function highlight(text: string) {
+  const parts = text.split(regex)
+  return parts.map((part, i) =>
+    TERMS.includes(part) ? <strong key={i} className="font-semibold text-slate-800">{part}</strong> : part
+  )
+}
+
 export default function WorkExperience() {
   const { cv } = useLanguage()
 
@@ -20,7 +44,7 @@ export default function WorkExperience() {
               <p className="text-esri-blue font-medium text-sm mb-3">
                 {job.company} · {job.location}
               </p>
-              <p className="text-slate-600 text-sm leading-relaxed">{job.description}</p>
+              <p className="text-slate-600 text-sm leading-relaxed">{highlight(job.description)}</p>
             </div>
           ))}
         </div>
