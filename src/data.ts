@@ -159,7 +159,7 @@ const en: CVData = {
       'ModelBuilder', 'ArcGIS for Power BI',
     ],
     development: [
-      'HTML', 'CSS', 'JavaScript', 'Python (pandas, SQL)',
+      'HTML', 'CSS', 'JavaScript', 'Python', 'SQL',
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
     other: [
@@ -282,7 +282,7 @@ const es: CVData = {
       'ModelBuilder', 'ArcGIS for Power BI',
     ],
     development: [
-      'HTML', 'CSS', 'JavaScript', 'Python (pandas, SQL)',
+      'HTML', 'CSS', 'JavaScript', 'Python', 'SQL',
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
     other: [
