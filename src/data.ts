@@ -77,7 +77,7 @@ const en: CVData = {
     {
       role: 'GIS Business Analyst',
       company: 'Solusoft',
-      url: '',
+      url: 'https://www.solusoft.es/',
       period: 'Jun 2024 – Present',
       location: 'Madrid, Spain',
       description:
@@ -209,7 +209,7 @@ const es: CVData = {
     {
       role: 'Analista de Negocio GIS',
       company: 'Solusoft',
-      url: '',
+      url: 'https://www.solusoft.es/',
       period: 'Jun 2024 – Presente',
       location: 'Madrid, España',
       description:
