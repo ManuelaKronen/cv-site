@@ -1,5 +1,13 @@
 import { useLanguage } from '../context/LanguageContext'
 
+function ExternalLinkIcon() {
+  return (
+    <svg className="w-3 h-3 opacity-70 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+  )
+}
+
 
 export default function WorkExperience() {
   const { cv } = useLanguage()
@@ -18,8 +26,16 @@ export default function WorkExperience() {
                 <h3 className="text-xl font-semibold text-slate-900">{job.role}</h3>
                 <span className="text-sm text-slate-500">{job.period}</span>
               </div>
-              <p className="text-esri-blue font-semibold text-sm mb-3">
-                {job.company} · {job.location}
+              <p className="text-esri-blue font-semibold text-sm mb-3 flex items-center gap-1.5">
+                {job.url ? (
+                  <a href={job.url} target="_blank" rel="noreferrer" className="hover:text-esri-dark transition-colors flex items-center gap-1.5">
+                    {job.company}
+                    <ExternalLinkIcon />
+                  </a>
+                ) : (
+                  job.company
+                )}
+                <span className="text-slate-400 font-normal">· {job.location}</span>
               </p>
               <p className="text-slate-700 leading-relaxed">{job.description}</p>
             </div>

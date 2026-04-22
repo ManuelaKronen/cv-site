@@ -1,6 +1,7 @@
 export type Experience = {
   role: string
   company: string
+  url?: string
   period: string
   location: string
   description: string
@@ -76,6 +77,7 @@ const en: CVData = {
     {
       role: 'GIS Business Analyst',
       company: 'Solusoft',
+      url: '',
       period: 'Jun 2024 – Present',
       location: 'Madrid, Spain',
       description:
@@ -84,6 +86,7 @@ const en: CVData = {
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
+      url: '',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, Spain',
       description:
@@ -92,6 +95,7 @@ const en: CVData = {
     {
       role: 'GIS Coordinator',
       company: 'Scanian Landscape Foundation',
+      url: 'https://skanskalandskap.se/en',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Sweden',
       description:
@@ -100,6 +104,7 @@ const en: CVData = {
     {
       role: 'Hiking Trail Coordinator',
       company: 'Scanian Landscape Foundation',
+      url: 'https://skanskalandskap.se/en',
       period: 'Aug 2016 – Jun 2022',
       location: 'Höör, Sweden',
       description:
@@ -108,6 +113,7 @@ const en: CVData = {
     {
       role: 'PhD Researcher & University Lecturer',
       company: 'Lund University',
+      url: '',
       period: 'Sep 2011 – Apr 2018',
       location: 'Sweden',
       description:
@@ -116,6 +122,7 @@ const en: CVData = {
     {
       role: 'Tourism Coordinator',
       company: 'Ystad Municipality',
+      url: '',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Sweden',
       description:
@@ -202,6 +209,7 @@ const es: CVData = {
     {
       role: 'Analista de Negocio GIS',
       company: 'Solusoft',
+      url: '',
       period: 'Jun 2024 – Presente',
       location: 'Madrid, España',
       description:
@@ -210,6 +218,7 @@ const es: CVData = {
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
+      url: '',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, España',
       description:
@@ -218,6 +227,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de GIS',
       company: 'Fundación Medioambiental de Ámbito Regional',
+      url: '',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Suecia',
       description:
@@ -226,6 +236,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de Rutas de Senderismo',
       company: 'Fundación Medioambiental de Ámbito Regional',
+      url: '',
       period: 'Ago 2016 – Jun 2022',
       location: 'Höör, Suecia',
       description:
@@ -234,6 +245,7 @@ const es: CVData = {
     {
       role: 'Doctoranda y Docente Universitaria',
       company: 'Lund University',
+      url: '',
       period: 'Sep 2011 – Abr 2018',
       location: 'Suecia',
       description:
@@ -242,6 +254,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de Turismo',
       company: 'Ayuntamiento de Ystad',
+      url: '',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Suecia',
       description:
