@@ -90,7 +90,7 @@ const en: CVData = {
     },
     {
       role: 'GIS Coordinator',
-      company: 'Regional Environmental Foundation',
+      company: 'Scanian Landscape Foundation',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Sweden',
       description:
@@ -98,7 +98,7 @@ const en: CVData = {
     },
     {
       role: 'Hiking Trail Coordinator',
-      company: 'Regional Environmental Foundation',
+      company: 'Scanian Landscape Foundation',
       period: 'Aug 2016 – Jun 2022',
       location: 'Höör, Sweden',
       description:
