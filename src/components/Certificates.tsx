@@ -15,7 +15,7 @@ export default function Certificates() {
               key={i}
               className="flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-4 hover:border-esri-blue/50 transition-colors"
             >
-              <EsriShield />
+              <EsriLogo />
               <div className="flex-1">
                 <p className="font-medium text-slate-900 text-sm">{cert.name}</p>
               </div>
@@ -30,12 +30,10 @@ export default function Certificates() {
   )
 }
 
-function EsriShield() {
+function EsriLogo() {
   return (
-    <div className="w-9 h-9 rounded-lg bg-esri-dark flex items-center justify-center shrink-0">
-      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
-      </svg>
+    <div className="w-12 h-9 rounded-lg bg-esri-dark flex items-center justify-center shrink-0">
+      <span className="text-white font-bold text-sm tracking-widest select-none">esri</span>
     </div>
   )
 }
