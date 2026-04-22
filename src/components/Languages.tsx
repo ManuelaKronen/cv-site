@@ -28,7 +28,7 @@ export default function Languages() {
             <div key={lang.name}>
               <div className="flex justify-between text-sm mb-1.5">
                 <span className="font-medium text-slate-800">{lang.name}</span>
-                <span className="text-slate-400">{lang.level}</span>
+                <span className="text-slate-500">{lang.level}</span>
               </div>
               <div className="h-2 rounded-full bg-slate-200">
                 <div className={`h-2 rounded-full bg-esri-blue ${barWidth(lang.level)}`} />

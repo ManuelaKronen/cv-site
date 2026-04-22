@@ -17,7 +17,7 @@ export default function Certificates() {
             >
               <GlobeIcon />
               <div className="flex-1">
-                <p className="font-medium text-slate-900 text-sm">{cert.name}</p>
+                <p className="font-medium text-slate-900">{cert.name}</p>
               </div>
               <span className="text-xs font-semibold text-esri-blue bg-esri-blue/10 px-2.5 py-1 rounded-full whitespace-nowrap">
                 {cert.date}

@@ -21,7 +21,7 @@ export default function ProgrammingCourses() {
                 </svg>
               </div>
               <div className="flex-1">
-                <p className="font-medium text-slate-900 text-sm">{course.name}</p>
+                <p className="font-medium text-slate-900">{course.name}</p>
               </div>
               <span className="text-xs font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
                 {course.period}

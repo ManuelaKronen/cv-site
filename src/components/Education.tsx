@@ -16,7 +16,7 @@ export default function Education() {
                 {edu.period}
               </p>
               <h3 className="font-semibold text-slate-900 mb-1">{edu.degree}</h3>
-              <p className="text-sm text-slate-500">{edu.institution}</p>
+              <p className="text-sm text-slate-600">{edu.institution}</p>
             </div>
           ))}
         </div>

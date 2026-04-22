@@ -15,13 +15,13 @@ export default function WorkExperience() {
             <div key={i} className="relative pl-8">
               <span className="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-esri-blue ring-4 ring-white" />
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-1">
-                <h3 className="text-lg font-semibold text-slate-900">{job.role}</h3>
-                <span className="text-sm text-slate-400">{job.period}</span>
+                <h3 className="text-xl font-semibold text-slate-900">{job.role}</h3>
+                <span className="text-sm text-slate-500">{job.period}</span>
               </div>
               <p className="text-esri-blue font-medium text-sm mb-3">
                 {job.company} · {job.location}
               </p>
-              <p className="text-slate-600 text-sm leading-relaxed">{job.description}</p>
+              <p className="text-slate-700 leading-relaxed">{job.description}</p>
             </div>
           ))}
         </div>
