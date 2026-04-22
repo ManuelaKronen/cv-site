@@ -11,7 +11,7 @@ export default function Header() {
           {profile.title}
         </p>
         <h1 className="text-5xl font-bold mb-6">{profile.name}</h1>
-        <p className="text-slate-200 text-lg max-w-2xl leading-relaxed mb-8">{profile.summary}</p>
+        <p className="text-slate-200 text-lg font-medium max-w-2xl leading-relaxed mb-8">{profile.summary}</p>
 
         <div className="flex flex-wrap gap-4 text-sm text-slate-200">
           <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
