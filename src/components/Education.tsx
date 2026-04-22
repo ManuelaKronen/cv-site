@@ -12,7 +12,7 @@ export default function Education() {
         <div className="grid sm:grid-cols-2 gap-4">
           {cv.education.map((edu, i) => (
             <div key={i} className="rounded-xl border border-slate-200 p-5 hover:border-esri-blue/50 transition-colors">
-              <p className="text-xs font-semibold text-esri-dark uppercase tracking-widest mb-1">
+              <p className="text-xs font-bold text-esri-blue uppercase tracking-widest mb-1">
                 {edu.period}
               </p>
               <h3 className="font-semibold text-slate-900 mb-1">{edu.degree}</h3>

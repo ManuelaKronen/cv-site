@@ -18,7 +18,7 @@ export default function WorkExperience() {
                 <h3 className="text-xl font-semibold text-slate-900">{job.role}</h3>
                 <span className="text-sm text-slate-500">{job.period}</span>
               </div>
-              <p className="text-esri-dark font-medium text-sm mb-3">
+              <p className="text-esri-blue font-semibold text-sm mb-3">
                 {job.company} · {job.location}
               </p>
               <p className="text-slate-700 leading-relaxed">{job.description}</p>

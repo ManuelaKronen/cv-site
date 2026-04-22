@@ -20,7 +20,7 @@ export default function TechStack() {
         <div className="space-y-6">
           {categories.map((cat) => (
             <div key={cat.label}>
-              <p className="text-xs font-semibold text-esri-dark uppercase tracking-widest mb-3">
+              <p className="text-xs font-bold text-esri-blue uppercase tracking-widest mb-3">
                 {cat.label}
               </p>
               <div className="flex flex-wrap gap-2">
