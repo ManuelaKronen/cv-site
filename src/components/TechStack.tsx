@@ -7,6 +7,7 @@ export default function TechStack() {
   const categories = [
     { label: ui.techCategories.esri, items: techStack.esri },
     { label: ui.techCategories.development, items: techStack.development },
+    { label: ui.techCategories.tools, items: techStack.tools },
     { label: ui.techCategories.other, items: techStack.other },
   ]
 

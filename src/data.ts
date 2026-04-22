@@ -25,6 +25,7 @@ export type ProgrammingCourse = {
 export type TechStack = {
   esri: string[]
   development: string[]
+  tools: string[]
   other: string[]
 }
 
@@ -55,7 +56,7 @@ export type CVData = {
     certificates: string
     programmingCourses: string
     techStack: string
-    techCategories: { esri: string; development: string; other: string }
+    techCategories: { esri: string; development: string; tools: string; other: string }
     languages: string
   }
 }
@@ -155,15 +156,18 @@ const en: CVData = {
   techStack: {
     esri: [
       'ArcGIS Online', 'ArcGIS Pro', 'ArcGIS Enterprise', 'ArcGIS Location Platform',
-      'ArcGIS Experience Builder', 'ArcGIS Field Maps', 'Network Analyst',
-      'ModelBuilder', 'ArcGIS for Power BI',
+      'ArcGIS Experience Builder', 'ArcGIS Experience Builder for Developers',
+      'ArcGIS Field Maps', 'Network Analyst', 'ModelBuilder', 'ArcGIS for Power BI',
     ],
     development: [
       'HTML', 'CSS', 'JavaScript', 'Python', 'SQL',
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
+    tools: [
+      'VS Code', 'GitHub', 'Vercel', 'Claude Code',
+    ],
     other: [
-      'Scrum','Qualitative Data Analysis', 'Technical Training & Outreach',
+      'Scrum', 'Qualitative Data Analysis', 'Technical Training & Outreach',
     ],
   },
   languages: [
@@ -178,7 +182,7 @@ const en: CVData = {
     certificates: 'Esri Course Certificates',
     programmingCourses: 'Programming Courses',
     techStack: 'Tech Stack',
-    techCategories: { esri: 'Esri Platforms', development: 'Development', other: 'Other' },
+    techCategories: { esri: 'Esri Platforms', development: 'Development', tools: 'Tools', other: 'Other' },
     languages: 'Languages',
   },
 }
@@ -278,15 +282,18 @@ const es: CVData = {
   techStack: {
     esri: [
       'ArcGIS Online', 'ArcGIS Pro', 'ArcGIS Enterprise', 'ArcGIS Location Platform',
-      'ArcGIS Experience Builder', 'ArcGIS Field Maps', 'Network Analyst',
-      'ModelBuilder', 'ArcGIS for Power BI',
+      'ArcGIS Experience Builder', 'ArcGIS Experience Builder for Developers',
+      'ArcGIS Field Maps', 'Network Analyst', 'ModelBuilder', 'ArcGIS for Power BI',
     ],
     development: [
       'HTML', 'CSS', 'JavaScript', 'Python', 'SQL',
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
+    tools: [
+      'VS Code', 'GitHub', 'Vercel', 'Claude Code',
+    ],
     other: [
-      'Scrum','Análisis cualitativo de datos', 'Formación y divulgación técnica',
+      'Scrum', 'Análisis cualitativo de datos', 'Formación y divulgación técnica',
     ],
   },
   languages: [
@@ -301,7 +308,7 @@ const es: CVData = {
     certificates: 'Certificados de Cursos Esri',
     programmingCourses: 'Cursos de Programación',
     techStack: 'Habilidades Técnicas',
-    techCategories: { esri: 'Plataformas Esri', development: 'Desarrollo', other: 'Otros' },
+    techCategories: { esri: 'Plataformas Esri', development: 'Desarrollo', tools: 'Herramientas', other: 'Otros' },
     languages: 'Idiomas',
   },
 }
