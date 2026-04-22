@@ -26,7 +26,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-xs text-esri-dark hover:text-esri-blue transition-colors whitespace-nowrap"
+                className="text-xs text-esri-dark hover:bg-white hover:text-esri-dark px-2 py-1 rounded transition-colors whitespace-nowrap"
               >
                 {l.label}
               </a>
