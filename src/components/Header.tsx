@@ -5,7 +5,7 @@ export default function Header() {
   const { profile } = cv
 
   return (
-    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-32 pb-10 px-6">
+    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-32 pb-14 px-6">
       <div className="max-w-4xl mx-auto">
         <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">
           {profile.title}
