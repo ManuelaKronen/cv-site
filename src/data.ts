@@ -86,7 +86,7 @@ const en: CVData = {
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
-      url: '',
+      url: 'https://www.youtube.com/watch?v=gFvJQ63fuvw',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, Spain',
       description:
@@ -218,7 +218,7 @@ const es: CVData = {
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
-      url: '',
+      url: 'https://www.youtube.com/watch?v=gFvJQ63fuvw',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, España',
       description:
