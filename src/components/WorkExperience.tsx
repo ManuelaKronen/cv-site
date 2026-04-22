@@ -20,14 +20,7 @@ export default function WorkExperience() {
               <p className="text-esri-blue font-medium text-sm mb-3">
                 {job.company} · {job.location}
               </p>
-              <ul className="space-y-1.5">
-                {job.bullets.map((b, j) => (
-                  <li key={j} className="text-slate-600 text-sm flex gap-2">
-                    <span className="text-esri-blue mt-1 shrink-0">›</span>
-                    {b}
-                  </li>
-                ))}
-              </ul>
+              <p className="text-slate-600 text-sm leading-relaxed">{job.description}</p>
             </div>
           ))}
         </div>

@@ -3,7 +3,7 @@ export type Experience = {
   company: string
   period: string
   location: string
-  bullets: string[]
+  description: string
 }
 
 export type Education = {
@@ -77,63 +77,48 @@ const en: CVData = {
       company: 'Solusoft',
       period: 'Jun 2024 – Present',
       location: 'Madrid, Spain',
-      bullets: [
-        'Lead the technical vision as an Esri España partner, analysing the use and integration of ArcGIS Online, ArcGIS Enterprise, and ArcGIS Location Platform, and supporting architectural decision-making.',
-        'Build and maintain positive client relationships and configure solutions using ArcGIS Experience Builder.',
-      ],
+      description:
+        'Lead the technical vision as an Esri España partner, analysing the use and integration of ArcGIS Online, ArcGIS Enterprise and ArcGIS Location Platform, and supporting architectural decision-making. Build and maintain positive client relationships and configure solutions using ArcGIS Experience Builder.',
     },
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, Spain',
-      bullets: [
-        'Created and published video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro, and ArcGIS Experience Builder.',
-        'Content designed for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
-      ],
+      description:
+        'Created and published video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro and ArcGIS Experience Builder. Content designed for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
     },
     {
       role: 'GIS Coordinator',
       company: 'Regional Environmental Foundation',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Sweden',
-      bullets: [
-        'Drove adoption of ArcGIS Pro and ArcGIS Online within the organisation, delivered internal training sessions, and administered the ArcGIS Field Maps mobile application for team use.',
-        'Collected data, performed spatial analysis, and generated reports in ArcGIS Pro and ArcGIS Online for a regional hiking trail spanning over 30 municipalities.',
-      ],
+      description:
+        'Drove adoption of ArcGIS Pro and ArcGIS Online within the organisation, delivered internal training sessions and administered the ArcGIS Field Maps mobile application for team use. Collected data, performed spatial analysis and generated reports in ArcGIS Pro and ArcGIS Online for a regional hiking trail spanning over 30 municipalities.',
     },
     {
       role: 'Hiking Trail Coordinator',
       company: 'Regional Environmental Foundation',
       period: 'Aug 2016 – Jun 2022',
       location: 'Höör, Sweden',
-      bullets: [
-        'Led the trail quality control team, with budget and personnel responsibilities.',
-        'Maintained a network of contacts across more than 30 municipalities to ensure proper trail upkeep.',
-        'Delivered quality standards training to field workers.',
-      ],
+      description:
+        'Led the trail quality control team, with budget and personnel responsibilities. Maintained a network of contacts across more than 30 municipalities to ensure proper trail upkeep. Delivered quality standards training to field workers.',
     },
     {
       role: 'PhD Researcher & University Lecturer',
       company: 'Lund University',
       period: 'Sep 2011 – Apr 2018',
       location: 'Sweden',
-      bullets: [
-        'Researched value-creation processes in EU LEADER projects for rural tourism development.',
-        'Planned and conducted interviews with key informants, performed qualitative data analysis, and presented findings as a doctoral thesis.',
-        'Taught undergraduate and postgraduate courses.',
-      ],
+      description:
+        'Researched value-creation processes in EU LEADER projects for rural tourism development. Planned and conducted interviews with key informants, performed qualitative data analysis and presented findings as a doctoral thesis. Taught undergraduate and postgraduate courses.',
     },
     {
       role: 'Tourism Coordinator',
       company: 'Ystad Municipality',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Sweden',
-      bullets: [
-        'Led reception teams in the day-to-day running of the tourist office.',
-        'Set up and managed online booking systems.',
-        'Delivered high-quality services to tourists under pressure.',
-      ],
+      description:
+        'Led reception teams in the day-to-day running of the tourist office. Set up and managed online booking systems. Delivered high-quality services to tourists under pressure.',
     },
   ],
   education: [
@@ -215,63 +200,48 @@ const es: CVData = {
       company: 'Solusoft',
       period: 'Jun 2024 – Presente',
       location: 'Madrid, España',
-      bullets: [
-        'Liderar la visión técnica como partner de Esri España, analizando el uso e integración de ArcGIS Online, ArcGIS Enterprise y ArcGIS Location Platform, y apoyando la toma de decisiones sobre la arquitectura más adecuada en cada caso.',
-        'Establecer relaciones positivas con los clientes y configurar soluciones con ArcGIS Experience Builder.',
-      ],
+      description:
+        'Liderar la visión técnica como partner de Esri España, analizando el uso e integración de ArcGIS Online, ArcGIS Enterprise y ArcGIS Location Platform, y apoyando la toma de decisiones sobre la arquitectura más adecuada en cada caso. Establecer relaciones positivas con los clientes y configurar soluciones con ArcGIS Experience Builder.',
     },
     {
       role: 'GIS Online Educator',
       company: 'Freelance',
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, España',
-      bullets: [
-        'Creación y publicación de tutoriales de vídeo sobre herramientas ArcGIS, cubriendo flujos de trabajo en ArcGIS Online, ArcGIS Pro y ArcGIS Experience Builder.',
-        'Contenido orientado a usuarios que necesitan aplicar soluciones GIS paso a paso, desde la configuración inicial hasta la resolución de casos prácticos.',
-      ],
+      description:
+        'Creación y publicación de tutoriales de vídeo sobre herramientas ArcGIS, cubriendo flujos de trabajo en ArcGIS Online, ArcGIS Pro y ArcGIS Experience Builder. Contenido orientado a usuarios que necesitan aplicar soluciones GIS paso a paso, desde la configuración inicial hasta la resolución de casos prácticos.',
     },
     {
       role: 'Coordinadora de GIS',
       company: 'Fundación Medioambiental de Ámbito Regional',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Suecia',
-      bullets: [
-        'Desarrollar el uso de ArcGIS Pro y ArcGIS Online dentro de la organización, impartir formaciones internas y administrar la aplicación móvil ArcGIS Field Maps para su uso en equipo.',
-        'Recopilar datos, realizar análisis y generar informes en ArcGIS Pro y ArcGIS Online sobre la ruta de senderismo regional en más de 30 ayuntamientos.',
-      ],
+      description:
+        'Desarrollar el uso de ArcGIS Pro y ArcGIS Online dentro de la organización, impartir formaciones internas y administrar la aplicación móvil ArcGIS Field Maps para su uso en equipo. Recopilar datos, realizar análisis y generar informes en ArcGIS Pro y ArcGIS Online sobre la ruta de senderismo regional en más de 30 ayuntamientos.',
     },
     {
       role: 'Coordinadora de Rutas de Senderismo',
       company: 'Fundación Medioambiental de Ámbito Regional',
       period: 'Ago 2016 – Jun 2022',
       location: 'Höör, Suecia',
-      bullets: [
-        'Liderar el equipo de control de calidad en la ruta, con responsabilidades sobre el presupuesto y la selección de personal.',
-        'Mantener una red de contactos con más de 30 ayuntamientos para garantizar el mantenimiento adecuado de la ruta.',
-        'Impartir formaciones sobre los estándares de calidad de la ruta a los trabajadores de campo.',
-      ],
+      description:
+        'Liderar el equipo de control de calidad en la ruta, con responsabilidades sobre el presupuesto y la selección de personal. Mantener una red de contactos con más de 30 ayuntamientos para garantizar el mantenimiento adecuado de la ruta. Impartir formaciones sobre los estándares de calidad de la ruta a los trabajadores de campo.',
     },
     {
       role: 'Doctoranda y Docente Universitaria',
       company: 'Lund University',
       period: 'Sep 2011 – Abr 2018',
       location: 'Suecia',
-      bullets: [
-        'Investigar el proceso de creación de valor en los proyectos UUEE LEADER para el desarrollo del turismo rural.',
-        'Planificar y realizar entrevistas con informantes clave para recopilar distintas perspectivas sobre el proceso, analizar datos cualitativos y presentar los resultados en forma de tesis doctoral.',
-        'Docencia en estudios de grado y máster.',
-      ],
+      description:
+        'Investigar el proceso de creación de valor en los proyectos UUEE LEADER para el desarrollo del turismo rural. Planificar y realizar entrevistas con informantes clave para recopilar distintas perspectivas sobre el proceso, analizar datos cualitativos y presentar los resultados en forma de tesis doctoral. Docencia en estudios de grado y máster.',
     },
     {
       role: 'Coordinadora de Turismo',
       company: 'Ayuntamiento de Ystad',
       period: 'May 2007 – May 2009',
       location: 'Ystad, Suecia',
-      bullets: [
-        'Liderar equipos de recepción en la ejecución de tareas en la oficina de turismo.',
-        'Configuración y gestión de sistemas de reservas en línea.',
-        'Ofrecer servicios de alta calidad a los turistas bajo presión.',
-      ],
+      description:
+        'Liderar equipos de recepción en la ejecución de tareas en la oficina de turismo. Configuración y gestión de sistemas de reservas en línea. Ofrecer servicios de alta calidad a los turistas bajo presión.',
     },
   ],
   education: [
