@@ -163,7 +163,7 @@ const en: CVData = {
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
     other: [
-      'Power BI', 'Scrum', 'Qualitative Data Analysis', 'Technical Training & Outreach',
+      'Scrum','Qualitative Data Analysis', 'Technical Training & Outreach',
     ],
   },
   languages: [
@@ -286,7 +286,7 @@ const es: CVData = {
       'React', 'ArcGIS Maps SDK for JavaScript', 'ArcGIS API for Python',
     ],
     other: [
-      'Power BI', 'Scrum', 'Análisis cualitativo de datos', 'Formación y divulgación técnica',
+      'Scrum','Análisis cualitativo de datos', 'Formación y divulgación técnica',
     ],
   },
   languages: [
