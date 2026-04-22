@@ -11,7 +11,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        sans: ['Source Sans 3', 'system-ui', 'sans-serif'],
+        typewriter: ['Courier Prime', 'Courier New', 'monospace'],
       },
     },
   },
