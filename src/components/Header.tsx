@@ -6,37 +6,46 @@ export default function Header() {
 
   return (
     <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-20 pb-14 px-6">
-      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr_auto] gap-8 md:gap-10 items-start mt-8">
+      <div className="max-w-4xl mx-auto mt-8 space-y-6">
 
-        {/* Contact — desktop left, mobile bottom */}
-        <div className="order-3 md:order-1 flex flex-col gap-3 text-sm text-slate-200 md:pt-1">
-          <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
-            <MailIcon />{profile.email}
-          </a>
-          <span className="flex items-center gap-2">
-            <PhoneIcon />{profile.phone}
-          </span>
-          <span className="flex items-center gap-2">
-            <PinIcon />{profile.location}
-          </span>
-          <a href={`https://${profile.github}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-            <GitHubIcon />{profile.github}
-          </a>
-        </div>
+        {/* Top row: contact | name+title | photo */}
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_auto] gap-8 md:gap-10 items-center">
 
-        {/* Description — desktop center, mobile second */}
-        <div className="order-2 md:order-2">
-          <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
-          <h1 className="text-4xl font-bold mb-5">{profile.name}</h1>
-          <p className="text-slate-200 text-lg font-medium leading-relaxed">{profile.summary}</p>
-        </div>
-
-        {/* Photo — desktop right, mobile top */}
-        <div className="order-1 md:order-3 flex justify-center md:justify-end">
-          <div className="w-32 h-32 rounded-full bg-white/15 border-2 border-white/30 flex items-center justify-center shrink-0">
-            <span className="text-3xl font-bold text-white/80 font-typewriter">MK</span>
+          {/* Contact — desktop left, mobile bottom */}
+          <div className="order-3 md:order-1 flex flex-col gap-3 text-sm text-slate-200">
+            <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
+              <MailIcon />{profile.email}
+            </a>
+            <span className="flex items-center gap-2">
+              <PhoneIcon />{profile.phone}
+            </span>
+            <span className="flex items-center gap-2">
+              <PinIcon />{profile.location}
+            </span>
+            <a href={`https://${profile.github}`} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+              <GitHubIcon />{profile.github}
+            </a>
           </div>
+
+          {/* Name + title — desktop center, mobile second */}
+          <div className="order-2 md:order-2">
+            <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
+            <h1 className="text-4xl font-bold">{profile.name}</h1>
+          </div>
+
+          {/* Photo — desktop right, mobile top */}
+          <div className="order-1 md:order-3 flex justify-center md:justify-end">
+            <div className="w-32 h-32 rounded-full bg-white/15 border-2 border-white/30 flex items-center justify-center shrink-0">
+              <span className="text-3xl font-bold text-white/80 font-typewriter">MK</span>
+            </div>
+          </div>
+
         </div>
+
+        {/* Summary — full width below */}
+        <p className="text-slate-200 text-lg font-medium leading-relaxed">
+          {profile.summary}
+        </p>
 
       </div>
     </section>
