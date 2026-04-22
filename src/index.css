@@ -10,7 +10,7 @@ html {
   body {
     @apply bg-slate-50 text-slate-900 font-sans text-base leading-relaxed;
   }
-  h1, h2, h3 {
+  h1 {
     @apply font-typewriter;
   }
 }
