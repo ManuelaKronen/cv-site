@@ -1,14 +1,16 @@
-import { certificates } from '../data'
+import { useLanguage } from '../context/LanguageContext'
 
 export default function Certificates() {
+  const { cv } = useLanguage()
+
   return (
     <section id="certificates" className="py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
-          Esri Certifications
+          {cv.ui.certificates}
         </h2>
         <div className="space-y-3">
-          {certificates.map((cert, i) => (
+          {cv.certificates.map((cert, i) => (
             <div
               key={i}
               className="flex items-center gap-4 rounded-xl border border-slate-200 bg-white p-4 hover:border-esri-blue/50 transition-colors"

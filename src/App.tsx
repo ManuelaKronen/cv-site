@@ -1,3 +1,4 @@
+import { LanguageProvider } from './context/LanguageContext'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import WorkExperience from './components/WorkExperience'
@@ -9,7 +10,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
+    <LanguageProvider>
       <Navbar />
       <Header />
       <main>
@@ -20,6 +21,6 @@ export default function App() {
         <Languages />
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   )
 }

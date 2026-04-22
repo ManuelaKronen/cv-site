@@ -1,6 +1,9 @@
-import { profile } from '../data'
+import { useLanguage } from '../context/LanguageContext'
 
 export default function Footer() {
+  const { cv } = useLanguage()
+  const { profile } = cv
+
   return (
     <footer className="bg-esri-dark text-slate-400 py-8 px-6 text-center text-sm">
       <p>

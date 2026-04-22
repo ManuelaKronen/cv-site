@@ -1,6 +1,9 @@
-import { profile } from '../data'
+import { useLanguage } from '../context/LanguageContext'
 
 export default function Header() {
+  const { cv } = useLanguage()
+  const { profile } = cv
+
   return (
     <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-32 pb-20 px-6">
       <div className="max-w-4xl mx-auto">
