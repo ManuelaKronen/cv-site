@@ -70,7 +70,7 @@ const en: CVData = {
     location: 'Madrid, Spain',
     github: 'github.com/manuelakronen',
     summary:
-      'GIS Solution Engineer with experience designing and implementing ArcGIS-based solutions, combining technical expertise with a business-oriented approach. A distinctive profile that brings together leadership in GIS environments, strategic client focus, and growing proficiency in frontend web development applied to Esri solutions. Proven experience with ArcGIS Online, ArcGIS Enterprise, and ArcGIS Location Platform, across both private-sector and public-sector projects. Committed to continuous learning within the Esri ecosystem and frontend development technologies.',
+      'GIS Solution Engineer with experience designing and implementing ArcGIS-based solutions, combining technical expertise with a business-oriented approach. A profile that brings together leadership in GIS environments, strategic client focus, and growing proficiency in frontend web development applied to Esri solutions. Proven experience with ArcGIS Online, ArcGIS Enterprise, and ArcGIS Location Platform, across both private-sector and public-sector projects. Committed to continuous learning within the Esri ecosystem and frontend development technologies.',
   },
   experience: [
     {
@@ -196,7 +196,7 @@ const es: CVData = {
     location: 'Madrid, España',
     github: 'github.com/manuelakronen',
     summary:
-      'Ingeniera de Soluciones GIS con experiencia en el diseño e implementación de soluciones basadas en ArcGIS, combinando conocimiento técnico y orientación a negocio. Perfil singular que combina liderazgo en entornos GIS, orientación estratégica al cliente y creciente dominio del desarrollo web aplicado a soluciones Esri. Experiencia acreditada en ArcGIS Online, ArcGIS Enterprise y ArcGIS Location Platform, tanto en proyectos con clientes privados como con administraciones públicas. Formación continua en el ecosistema Esri y en tecnologías de desarrollo frontend.',
+      'Ingeniera de Soluciones GIS con experiencia en el diseño e implementación de soluciones basadas en ArcGIS, combinando conocimiento técnico y orientación a negocio. Perfil que combina liderazgo en entornos GIS, orientación estratégica al cliente y creciente dominio del desarrollo web aplicado a soluciones Esri. Experiencia acreditada en ArcGIS Online, ArcGIS Enterprise y ArcGIS Location Platform, tanto en proyectos con clientes privados como con administraciones públicas. Formación continua en el ecosistema Esri y en tecnologías de desarrollo frontend.',
   },
   experience: [
     {
