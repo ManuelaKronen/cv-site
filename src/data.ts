@@ -113,7 +113,7 @@ const en: CVData = {
     {
       role: 'PhD Researcher & University Lecturer',
       company: 'Lund University',
-      url: '',
+      url: 'https://www.ses.lu.se/en/',
       period: 'Sep 2011 – Apr 2018',
       location: 'Sweden',
       description:
@@ -245,7 +245,7 @@ const es: CVData = {
     {
       role: 'Doctoranda y Docente Universitaria',
       company: 'Lund University',
-      url: '',
+      url: 'https://www.ses.lu.se/en/',
       period: 'Sep 2011 – Abr 2018',
       location: 'Suecia',
       description:
