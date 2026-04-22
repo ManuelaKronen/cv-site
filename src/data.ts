@@ -86,7 +86,7 @@ const en: CVData = {
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, Spain',
       description:
-        'Created and published video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro and ArcGIS Experience Builder. Content designed for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
+        'Created and published video tutorials on ArcGIS tools, covering workflows in ArcGIS Online, ArcGIS Pro and ArcGIS Field Maps. Content designed for users needing step-by-step GIS solutions, from initial setup to practical case resolution.',
     },
     {
       role: 'GIS Coordinator',
@@ -209,7 +209,7 @@ const es: CVData = {
       period: 'Jul 2022 – Jun 2024',
       location: 'Madrid, España',
       description:
-        'Creación y publicación de tutoriales de vídeo sobre herramientas ArcGIS, cubriendo flujos de trabajo en ArcGIS Online, ArcGIS Pro y ArcGIS Experience Builder. Contenido orientado a usuarios que necesitan aplicar soluciones GIS paso a paso, desde la configuración inicial hasta la resolución de casos prácticos.',
+        'Creación y publicación de tutoriales de vídeo sobre herramientas ArcGIS, cubriendo flujos de trabajo en ArcGIS Online, ArcGIS Pro y ArcGIS Field Maps. Contenido orientado a usuarios que necesitan aplicar soluciones GIS paso a paso, desde la configuración inicial hasta la resolución de casos prácticos.',
     },
     {
       role: 'Coordinadora de GIS',
