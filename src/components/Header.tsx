@@ -30,7 +30,25 @@ export default function Header() {
           {/* Name + title — desktop center, mobile second */}
           <div className="order-2 md:order-2">
             <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
-            <h1 className="text-4xl font-bold">{profile.name}</h1>
+            <div className="relative inline-block">
+              <h1 className="text-4xl font-bold relative z-10">{profile.name}</h1>
+              <svg
+                className="absolute -bottom-2 left-0 w-full"
+                height="10"
+                viewBox="0 0 100 10"
+                preserveAspectRatio="none"
+                fill="none"
+              >
+                <path
+                  d="M0 7 C8 3, 16 9, 25 5 S40 1, 52 6 S68 9, 78 5 S90 2, 100 6"
+                  stroke="white"
+                  strokeOpacity="0.45"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  vectorEffect="non-scaling-stroke"
+                />
+              </svg>
+            </div>
           </div>
 
           {/* Photo — desktop right, mobile top */}
