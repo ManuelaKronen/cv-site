@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-32 pb-20 px-6">
       <div className="max-w-4xl mx-auto">
-        <p className="text-esri-light text-sm font-medium tracking-widest uppercase mb-2">
+        <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">
           {profile.title}
         </p>
         <h1 className="text-5xl font-bold mb-6">{profile.name}</h1>
