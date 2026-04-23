@@ -13,9 +13,9 @@ export default function Navbar() {
     { label: cv.ui.languages, href: '#languages' },
   ]
 
-  const options: { value: Lang; flag: string; label: string }[] = [
-    { value: 'en', flag: '🇬🇧', label: 'EN' },
-    { value: 'es', flag: '🇪🇸', label: 'ES' },
+  const options: { value: Lang; flag: JSX.Element; label: string }[] = [
+    { value: 'en', flag: <FlagEN />, label: 'EN' },
+    { value: 'es', flag: <FlagES />, label: 'ES' },
   ]
 
   return (
@@ -39,18 +39,41 @@ export default function Navbar() {
             <button
               key={opt.value}
               onClick={() => opt.value !== lang && toggle()}
-              className={`flex items-center gap-1 text-xs font-semibold px-2.5 py-1.5 rounded-full transition-colors ${
+              className={`flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1.5 rounded-full transition-colors ${
                 lang === opt.value
                   ? 'bg-esri-blue text-white'
                   : 'border border-slate-200 text-slate-500 hover:border-esri-blue hover:text-esri-blue'
               }`}
             >
-              <span>{opt.flag}</span>
+              {opt.flag}
               <span>{opt.label}</span>
             </button>
           ))}
         </div>
       </div>
     </nav>
+  )
+}
+
+function FlagEN() {
+  return (
+    <svg viewBox="0 0 60 36" width="20" height="12" className="rounded-sm shrink-0" aria-hidden="true">
+      <rect width="60" height="36" fill="#012169"/>
+      <path d="M0,0 L60,36 M60,0 L0,36" stroke="white" strokeWidth="9"/>
+      <path d="M0,0 L60,36 M60,0 L0,36" stroke="#C8102E" strokeWidth="5"/>
+      <rect x="22" y="0" width="16" height="36" fill="white"/>
+      <rect x="0" y="10" width="60" height="16" fill="white"/>
+      <rect x="25" y="0" width="10" height="36" fill="#C8102E"/>
+      <rect x="0" y="13" width="60" height="10" fill="#C8102E"/>
+    </svg>
+  )
+}
+
+function FlagES() {
+  return (
+    <svg viewBox="0 0 60 36" width="20" height="12" className="rounded-sm shrink-0" aria-hidden="true">
+      <rect width="60" height="36" fill="#c60b1e"/>
+      <rect y="9" width="60" height="18" fill="#ffc400"/>
+    </svg>
   )
 }
