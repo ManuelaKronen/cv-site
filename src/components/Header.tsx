@@ -29,9 +29,9 @@ export default function Header() {
 
           {/* Name + title — desktop center, mobile second */}
           <div className="order-2 md:order-2">
-            <p className="text-white text-base font-medium tracking-widest uppercase mb-2">{profile.title}</p>
+            <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
             <div className="relative inline-block">
-              <h1 className="text-5xl font-bold relative z-10">{profile.name}</h1>
+              <h1 className="text-4xl font-bold relative z-10">{profile.name}</h1>
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 height="10"
