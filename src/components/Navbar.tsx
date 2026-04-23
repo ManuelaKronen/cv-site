@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200 px-6">
       <div className="max-w-4xl mx-auto h-14 flex items-center justify-between gap-4">
-        <ul className="hidden md:flex items-center gap-5 flex-1">
+        <ul className="hidden md:flex items-center gap-3 flex-1">
           {links.map((l) => (
             <li key={l.href}>
               <a
@@ -41,7 +41,7 @@ export default function Navbar() {
               onClick={() => opt.value !== lang && toggle()}
               className={`flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1.5 rounded-full transition-colors ${
                 lang === opt.value
-                  ? 'bg-esri-blue text-white'
+                  ? 'bg-esri-blue text-white border border-transparent'
                   : 'border border-slate-200 text-slate-500 hover:border-esri-blue hover:text-esri-blue'
               }`}
             >
