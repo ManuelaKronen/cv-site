@@ -71,7 +71,7 @@ const en: CVData = {
     location: 'Madrid, Spain',
     github: 'github.com/manuelakronen',
     summary:
-      'GIS Solution Engineer with experience designing and implementing ArcGIS-based solutions, combining technical expertise with a business-oriented approach. A profile that brings together leadership in GIS environments, strategic client focus, and growing proficiency in frontend web development applied to Esri solutions. Proven experience with ArcGIS Online, ArcGIS Enterprise, and ArcGIS Location Platform, across both private-sector and public-sector projects. Committed to continuous learning within the Esri ecosystem and frontend development technologies.',
+      'GIS Solution Engineer with experience designing and implementing ArcGIS-based solutions, combining technical expertise with a business-oriented approach. Combining leadership in GIS environments, strategic client focus, and growing proficiency in frontend web development applied to Esri solutions. Proven experience with ArcGIS Online, ArcGIS Enterprise, and ArcGIS Location Platform, across both private-sector and public-sector projects. Committed to continuous learning within the Esri ecosystem and frontend development technologies.',
   },
   experience: [
     {
@@ -249,7 +249,7 @@ const es: CVData = {
       period: 'Sep 2011 – Abr 2018',
       location: 'Suecia',
       description:
-        'Investigar el proceso de creación de valor en los proyectos UUEE LEADER para el desarrollo del turismo rural. Planificar y realizar entrevistas con informantes clave para recopilar distintas perspectivas sobre el proceso, analizar datos cualitativos y presentar los resultados en forma de tesis doctoral. Docencia en estudios de grado y máster.',
+        'Investigar el proceso de creación de valor en los proyectos LEADER de la UE para el desarrollo del turismo rural. Planificar y realizar entrevistas con informantes clave para recopilar distintas perspectivas sobre el proceso, analizar datos cualitativos y presentar los resultados en forma de tesis doctoral. Docencia en estudios de grado y máster.',
     },
     {
       role: 'Coordinadora de Turismo',
