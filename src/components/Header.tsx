@@ -12,7 +12,7 @@ export default function Header() {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_auto] gap-8 md:gap-10 items-center">
 
           {/* Contact — desktop left, mobile bottom */}
-          <div className="order-3 md:order-1 flex flex-col gap-3 text-base text-slate-200">
+          <div className="order-3 md:order-1 flex flex-col gap-3 text-sm text-slate-200">
             <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
               <MailIcon />{profile.email}
             </a>
