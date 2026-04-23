@@ -20,13 +20,13 @@ export default function Languages() {
   return (
     <section id="languages" className="py-16 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
+        <h2 className="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
           {cv.ui.languages}
         </h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {cv.languages.map((lang) => (
             <div key={lang.name}>
-              <div className="flex justify-between text-sm mb-1.5">
+              <div className="flex justify-between text-base mb-1.5">
                 <span className="font-medium text-slate-800">{lang.name}</span>
                 <span className="text-slate-500">{lang.level}</span>
               </div>

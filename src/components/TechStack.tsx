@@ -14,20 +14,20 @@ export default function TechStack() {
   return (
     <section id="tech" className="py-16 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
+        <h2 className="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
           {ui.techStack}
         </h2>
         <div className="space-y-6">
           {categories.map((cat) => (
             <div key={cat.label}>
-              <p className="text-xs font-bold text-esri-blue uppercase tracking-widest mb-3">
+              <p className="text-sm font-bold text-esri-blue uppercase tracking-widest mb-3">
                 {cat.label}
               </p>
               <div className="flex flex-wrap gap-2">
                 {cat.items.map((item) => (
                   <span
                     key={item}
-                    className="px-3.5 py-1.5 rounded-full text-sm font-medium bg-slate-100 text-slate-700 hover:bg-esri-blue hover:text-white transition-colors cursor-default"
+                    className="px-3.5 py-1.5 rounded-full text-base font-medium bg-slate-100 text-slate-700 hover:bg-esri-blue hover:text-white transition-colors cursor-default"
                   >
                     {item}
                   </span>

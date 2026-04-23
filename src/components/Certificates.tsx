@@ -6,7 +6,7 @@ export default function Certificates() {
   return (
     <section id="certificates" className="py-16 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
+        <h2 className="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
           {cv.ui.certificates}
         </h2>
         <div className="space-y-3">
@@ -19,7 +19,7 @@ export default function Certificates() {
               <div className="flex-1">
                 <p className="font-medium text-slate-900">{cert.name}</p>
               </div>
-              <span className="text-xs font-bold text-esri-blue bg-esri-blue/10 px-2.5 py-1 rounded-full whitespace-nowrap">
+              <span className="text-sm font-bold text-esri-blue bg-esri-blue/10 px-2.5 py-1 rounded-full whitespace-nowrap">
                 {cert.date}
               </span>
             </div>

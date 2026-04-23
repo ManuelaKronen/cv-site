@@ -6,7 +6,7 @@ export default function ProgrammingCourses() {
   return (
     <section id="programming" className="py-16 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
+        <h2 className="text-3xl font-bold text-slate-900 mb-8 pb-3 border-b border-slate-200">
           {cv.ui.programmingCourses}
         </h2>
         <div className="space-y-3">
@@ -23,7 +23,7 @@ export default function ProgrammingCourses() {
               <div className="flex-1">
                 <p className="font-medium text-slate-900">{course.name}</p>
               </div>
-              <span className="text-xs font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
+              <span className="text-sm font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full whitespace-nowrap">
                 {course.period}
               </span>
             </div>

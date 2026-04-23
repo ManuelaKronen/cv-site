@@ -12,7 +12,7 @@ export default function Header() {
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_auto] gap-8 md:gap-10 items-center">
 
           {/* Contact — desktop left, mobile bottom */}
-          <div className="order-3 md:order-1 flex flex-col gap-3 text-sm text-slate-200">
+          <div className="order-3 md:order-1 flex flex-col gap-3 text-base text-slate-200">
             <a href={`mailto:${profile.email}`} className="flex items-center gap-2 hover:text-white transition-colors">
               <MailIcon />{profile.email}
             </a>
@@ -29,9 +29,9 @@ export default function Header() {
 
           {/* Name + title — desktop center, mobile second */}
           <div className="order-2 md:order-2">
-            <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
+            <p className="text-white text-base font-medium tracking-widest uppercase mb-2">{profile.title}</p>
             <div className="relative inline-block">
-              <h1 className="text-4xl font-bold relative z-10">{profile.name}</h1>
+              <h1 className="text-5xl font-bold relative z-10">{profile.name}</h1>
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 height="10"
@@ -63,7 +63,7 @@ export default function Header() {
         </div>
 
         {/* Summary — full width below */}
-        <p className="text-slate-200 text-lg font-medium leading-relaxed">
+        <p className="text-slate-200 text-xl font-medium leading-relaxed">
           {profile.summary}
         </p>
 
