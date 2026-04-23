@@ -28,7 +28,7 @@ export default function Header() {
           </div>
 
           {/* Name + title — desktop center, mobile second */}
-          <div className="order-2 md:order-2 text-center">
+          <div className="order-2 md:order-2">
             <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
             <div className="relative inline-block">
               <h1 className="text-4xl font-bold relative z-10">{profile.name}</h1>
