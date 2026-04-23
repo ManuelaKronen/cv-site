@@ -5,8 +5,8 @@ export default function Header() {
   const { profile } = cv
 
   return (
-    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-20 pb-14 px-6">
-      <div className="max-w-4xl mx-auto mt-8 space-y-6">
+    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-20 pb-20 px-6">
+      <div className="max-w-4xl mx-auto mt-8 space-y-8">
 
         {/* Top row: contact | name+title | photo */}
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_auto] gap-8 md:gap-10 items-center">
@@ -28,7 +28,7 @@ export default function Header() {
           </div>
 
           {/* Name + title — desktop center, mobile second */}
-          <div className="order-2 md:order-2">
+          <div className="order-2 md:order-2 text-center">
             <p className="text-white text-sm font-medium tracking-widest uppercase mb-2">{profile.title}</p>
             <div className="relative inline-block">
               <h1 className="text-4xl font-bold relative z-10">{profile.name}</h1>
