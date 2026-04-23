@@ -5,7 +5,7 @@ export default function Header() {
   const { profile } = cv
 
   return (
-    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-20 pb-20 px-6">
+    <section className="bg-gradient-to-br from-esri-dark to-esri-blue text-white pt-20 pb-16 px-6">
       <div className="max-w-4xl mx-auto mt-8 space-y-8">
 
         {/* Top row: contact | name+title | photo */}
