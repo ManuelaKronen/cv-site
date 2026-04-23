@@ -227,7 +227,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de GIS',
       company: 'Fundación Medioambiental de Ámbito Regional',
-      url: '',
+      url: 'https://skanskalandskap.se/en',
       period: 'Feb 2018 – Jun 2022',
       location: 'Höör, Suecia',
       description:
@@ -236,7 +236,7 @@ const es: CVData = {
     {
       role: 'Coordinadora de Rutas de Senderismo',
       company: 'Fundación Medioambiental de Ámbito Regional',
-      url: '',
+      url: 'https://skanskalandskap.se/en',
       period: 'Ago 2016 – Jun 2022',
       location: 'Höör, Suecia',
       description:
