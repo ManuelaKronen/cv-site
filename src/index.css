@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-slate-50 text-slate-900 font-sans text-lg leading-relaxed;
+    @apply bg-slate-50 text-slate-900 font-sans text-[17px] leading-relaxed;
   }
   h1 {
     @apply font-typewriter;
